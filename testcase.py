@@ -40,7 +40,7 @@ def run_bot():
             
             storage.child("seen_vn.txt").put("seen_vn.txt")
 
-        time.sleep(15)
+        time.sleep(20)
 
 
 def blacklisted_posts():
